@@ -1,64 +1,31 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
-
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<h1>Complete tyre shop menagment system application</h1>
+<h3>About the app</h3>
+<p>
+    This <b>Laravel 9</b> and <b>Livewire</b> application is everything about menaging a tyre shop, from receiving tyres, to selling them to the customer. It gives you great control of menaging your products and stocks.
 </p>
 
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<h3>Features</h3>
+<ul>
+    <li>Inserting a new tyre model, type and size in your database</li>
+    <li>Registering customers</li>
+    <li>Create a new sale by choosing your customer and product with option to set payment due date, and give the sale status to paid or not paid</li>
+    <li>if the product is not completely paid at the day of purchase, you have option to add multiple payments relating to that specific sale</li>
+    <li>When the product is fully paid, you are given an option to „Close Sale“</li>
+    <li>Option to print the invoise to taht specific sale</li>
+    <li>Option to print the payment receipt to every payment that has been inserted</li>
+    <li>Available customer search by name</li>
+    <li>Available product search by model, type or size</li>
+    <li>Available sale search by status - Paid od Not paid</li>
+    <li>Available payments search by date or in a range of a specific dates</li>
+    <li>Front page (landing page) of the application is available to everybody and everyone can search for a specific tyre</li>
+    <li>When finding the model they are looking for they can make an order to that product</li>
+    <li>When placing an order, e-mail is send to the administrator about the new online order</li>
+    <li>In the administrator panel theres a separate link to see all online orders that are recieved wit details about the person who is orddring and about the product</li>
+    <li>If that online order is completed, there is an option to set status to that order to Completed</li>
+ </ul>
+ 
+ <p>These are some of the main features for this application. This is the first version of the app, so I hope there are going to be more and more available features in the near future like Tyre Hotel menagment and so on...</p>
+ 
+ <h2>Instalation</h2>
+ <p>When you clone the git repo, run the migrations and seeds. This will give you a startup filled database with data.</p>
+ <p>To Log In to the application type to the username field <u><b>admin@admin.com</b></u> and in the password field <u><b>123456789</b></u></p>
